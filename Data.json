@@ -1,0 +1,94 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Xin chào", "Hi", "Hello", "alo", "ê"],
+        "responses": ["Chào bạn! Tôi có thể giúp gì cho bạn?", "Xin chào! Bạn cần tôi giúp gì không?"]
+      },
+      {
+        "tag": "booking",
+        "patterns": ["Tôi muốn đặt phòng", "Làm cách nào để đặt phòng?", "Có phòng trống không?"],
+        "responses": ["Tất nhiên! Bạn muốn đặt phòng vào ngày nào?", "Có, chúng tôi còn phòng trống. Bạn muốn đặt vào ngày nào?"]
+      },
+      {
+        "tag": "ready",
+        "patterns": ["vào", "thời gian", "tôi muốn đặt vào ngày "],
+        "responses": ["Ok, ngày của bạn đặt phòng còn trống bạn muốn chọn phòng ra sao?"]
+      },
+      {
+        "tag": "room_type",
+        "patterns": ["Phòng 2 người", "Phòng cho gia đình"],
+        "responses": ["Được tôi sẽ chốt phòng cho bạn vào thời gian bạn đã chọn nhé, cảm ơn bạn."]
+      },
+      {
+        "tag": "morning ",
+        "patterns": ["Có phòng kết hợp với gói thực đơn không?"] ,
+        "responses": ["Chúng tôi có các gói thực đơn kết hợp với phòng. Vui lòng cho chúng tôi biết yêu cầu cụ thể về thực đơn của bạn để chúng tôi có thể tư vấn và đặt phòng cho bạn."]
+      },
+      {
+        "tag": "thank_you",
+        "patterns": ["Cảm ơn", "Rất cảm ơn", "Tôi cảm ơn"],
+        "responses": ["Không có gì! Nếu bạn cần thêm sự hỗ trợ, đừng ngần ngại liên hệ với chúng tôi."]
+      },
+      {
+        "tag": "non",
+        "patterns": [" "],
+        "responses": ["Tôi không hiểu bạn nhắn gì"]
+      },
+      {
+        "tag": "room",
+        "patterns": ["Làm thế nào để hủy đặt phòng ", "huỷ phòng"],
+        "responses": ["Ok vui lòng bạn điền Họ tên, số điện thoại, phòng muốn huỷ, chúng tôi sẽ huỷ miễn phí cho bạn"]
+      },
+      {
+        "tag": "le",
+        "patterns": ["Tôi muốn đặt phòng cho một ngày lễ."],
+        "responses": ["Để đặt phòng vào ngày lễ, vui lòng cung cấp thông tin cụ thể về ngày và loại phòng mong muốn. Chúng tôi sẽ kiểm tra tính trống và cung cấp thông tin chi tiết về việc đặt phòng trong dịp đó."]
+      },
+      {
+        "tag": "Love3",
+        "patterns": ["<3"],
+        "responses": ["♥"]
+      },
+      {
+        "tag": "location",
+        "patterns": ["vị trí gần đâu","vị trí đẹp", "dẹp", "view biển"],
+        "responses": ["Có chúng tôi có nhiều chi nhánh view biển cực đẹp nó sáp gần với trung tâm thuông mại."]
+      },
+      {
+        "tag": "Air",
+        "patterns": [ "Có dịch vụ đưa đón từ sân bay không?", "sân bay"],
+        "responses": [ "Có, chúng tôi cung cấp dịch vụ đưa đón từ sân bay. Vui lòng cung cấp chi tiết về chuyến bay của bạn để sắp xếp dịch vụ này."]
+      },
+      {
+        "tag": "img",
+        "patterns": [ "Tôi muốn xem hình ảnh của phòng trước khi đặt."],
+        "responses": ["Bạn có thể xem hình ảnh của các phòng trên trang web của chúng tôi. Chúng tôi cũng có thể gửi hình ảnh qua email nếu bạn muốn."]
+      },
+      {
+        "tag": "sale",
+        "patterns": ["Khuyến mãi","Đặt nhiều phòng có khuyến mãi gì không"],
+        "responses": ["Có, chúng tôi sẽ giảm giá từng phòng cho bạn nhé!."]
+      },
+      {
+        "tag": "bye",
+        "patterns": ["tạm biệt"],
+        "responses": ["ok chào bạn hẹn, ngày gặp lại."]
+      },
+      {
+        "tag": "change",
+        "patterns": ["Làm thế nào để thay đổi thông tin đặt phòng?"],
+        "responses": [ "Để thay đổi thông tin đặt phòng, vui lòng liên hệ với chúng tôi qua số điện thoại hoặc email. Chúng tôi sẽ hỗ trợ bạn trong việc chỉnh sửa thông tin đặt phòng."]
+      },
+      {
+        "tag": "team-room",
+        "patterns": [" Tôi muốn đặt nhiều phòng cho một nhóm."],
+        "responses": [ "Nếu bạn muốn đặt nhiều phòng cho một nhóm, xin vui lòng cung cấp số lượng phòng và thông tin chi tiết về nhóm của bạn để chúng tôi có thể tư vấn và đặt phòng cho bạn."]
+      },
+      {
+        "tag": "NY",
+        "patterns": ["Biết loan là ai không"],
+        "responses": ["Biết chứ, Loan là người yêu của anh Đào Thanh Lợi mà hai người đó đang hạnh phúc bên nhau ý, đừng có xen vào cuộc sống của họ OK."]
+      }
+    ]
+  }
